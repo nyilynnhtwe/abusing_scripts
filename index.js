@@ -2,39 +2,52 @@ const app = require("express")();
 const fs = require("fs");
 
 app.get("/", (req, res) => {
-  res.send("Dota 2 heros api by Florject.\n Get all heros - /api/heros \n Get a hero by id - /api/heros/:id ");
+  res.send("Dota 2 heroes api by Florject.\n Get all heroes - /api/heroes \n Get a hero by id - /api/heroes/:id ");
 });
 
-app.get("/api/heros", (req, res) => {
+app.get("/api/heroes", (req, res) => {
   fs.readFile("data.json", "utf8", (err, file) => {
-    const data = JSON.parse(file);
-    res.send(data);
+    if (err) {
+      console.error("Error reading file:", err);
+      res.status(500).send("Internal Server Error");
+      return;
+    }
+
+    try {
+      const data = JSON.parse(file);
+      res.send(data);
+    } catch (err) {
+      console.error("Error while parsing JSON data:", err);
+      res.status(500).send("Internal Server Error");
+    }
   });
 });
 
-app.get("/api/heros/:id", (req, res) => {
+app.get("/api/heroes/:id", (req, res) => {
   const { id } = req.params;
   fs.readFile("data.json", "utf8", (err, file) => {
-    // check for any errors
     if (err) {
-      if (err) {
-        res.status(500).send("Internal Server Error");
-      }
+      console.error("Error reading file:", err);
+      res.status(500).send("Internal Server Error");
+      return;
     }
+
     try {
       const data = JSON.parse(file);
-      let result;
+      let result = "No valid hero";
+
       for (let index = 0; index < data.length; index++) {
         const hero = data[index];
         if (hero.id === id) {
-          result = data;
-        } else {
-          result = "No valid hero";
+          result = hero;
+          break;  // Found the hero, no need to continue the loop
         }
       }
+
       res.send(result);
     } catch (err) {
       console.error("Error while parsing JSON data:", err);
+      res.status(500).send("Internal Server Error");
     }
   });
 });
