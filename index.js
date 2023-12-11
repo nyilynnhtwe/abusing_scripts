@@ -1,8 +1,8 @@
 const app = require("express")();
 const fs = require("fs");
 
-app.get("/api/heros", (req, res) => {
-  res.send("Dota 2 heros api by Florject.");
+app.get("/", (req, res) => {
+  res.send("Dota 2 heros api by Florject.\n Get all heros - /api/heros \n Get a hero by id - /api/heros/:id ");
 });
 
 app.get("/api/heros", (req, res) => {
