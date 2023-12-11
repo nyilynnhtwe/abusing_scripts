@@ -1,0 +1,1241 @@
+[
+  {
+    "id": 1,
+    "name": "npc_dota_hero_antimage",
+    "localized_name": "Anti-Mage",
+    "primary_attr": "agi",
+    "attack_type": "Melee",
+    "roles": ["Carry", "Escape", "Nuker"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/7/70/Anti-Mage_Large.png/125px-Anti-Mage_Large.png"
+  },
+  {
+    "id": 2,
+    "name": "npc_dota_hero_axe",
+    "localized_name": "Axe",
+    "primary_attr": "str",
+    "attack_type": "Melee",
+    "roles": ["Initiator", "Durable", "Disabler", "Carry"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/a/a1/Axe_Large.png/125px-Axe_Large.png"
+  },
+  {
+    "id": 3,
+    "name": "npc_dota_hero_bane",
+    "localized_name": "Bane",
+    "primary_attr": "all",
+    "attack_type": "Ranged",
+    "roles": ["Support", "Disabler", "Nuker", "Durable"],
+    "legs": 4,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/7/72/Bane_Large.png/125px-Bane_Large.png"
+  },
+  {
+    "id": 4,
+    "name": "npc_dota_hero_bloodseeker",
+    "localized_name": "Bloodseeker",
+    "primary_attr": "agi",
+    "attack_type": "Melee",
+    "roles": ["Carry", "Disabler", "Nuker", "Initiator"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/a/a6/Bloodseeker_Large.png/125px-Bloodseeker_Large.png"
+  },
+  {
+    "id": 5,
+    "name": "npc_dota_hero_crystal_maiden",
+    "localized_name": "Crystal Maiden",
+    "primary_attr": "int",
+    "attack_type": "Ranged",
+    "roles": ["Support", "Disabler", "Nuker"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/d/dc/Crystal_Maiden_Large.png/125px-Crystal_Maiden_Large.png"
+  },
+  {
+    "id": 6,
+    "name": "npc_dota_hero_drow_ranger",
+    "localized_name": "Drow Ranger",
+    "primary_attr": "agi",
+    "attack_type": "Ranged",
+    "roles": ["Carry", "Disabler", "Pusher"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/7/7e/Drow_Ranger_Large.png/125px-Drow_Ranger_Large.png"
+  },
+  {
+    "id": 7,
+    "name": "npc_dota_hero_earthshaker",
+    "localized_name": "Earthshaker",
+    "primary_attr": "str",
+    "attack_type": "Melee",
+    "roles": ["Support", "Initiator", "Disabler", "Nuker"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/8/8f/Earthshaker_Large.png/125px-Earthshaker_Large.png"
+  },
+  {
+    "id": 8,
+    "name": "npc_dota_hero_juggernaut",
+    "localized_name": "Juggernaut",
+    "primary_attr": "agi",
+    "attack_type": "Melee",
+    "roles": ["Carry", "Pusher", "Escape"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/c/c8/Juggernaut_Large.png/125px-Juggernaut_Large.png"
+  },
+  {
+    "id": 9,
+    "name": "npc_dota_hero_mirana",
+    "localized_name": "Mirana",
+    "primary_attr": "all",
+    "attack_type": "Ranged",
+    "roles": ["Carry", "Support", "Escape", "Nuker", "Disabler"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/1/1f/Mirana_Large.png/125px-Mirana_Large.png"
+  },
+  {
+    "id": 10,
+    "name": "npc_dota_hero_morphling",
+    "localized_name": "Morphling",
+    "primary_attr": "agi",
+    "attack_type": "Ranged",
+    "roles": ["Carry", "Escape", "Durable", "Nuker", "Disabler"],
+    "legs": 0,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/c/c7/Morphling_Large.png/125px-Morphling_Large.png"
+  },
+  {
+    "id": 11,
+    "name": "npc_dota_hero_nevermore",
+    "localized_name": "Shadow Fiend",
+    "primary_attr": "agi",
+    "attack_type": "Ranged",
+    "roles": ["Carry", "Nuker"],
+    "legs": 0,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/6/60/Shadow_Fiend_Large.png/125px-Shadow_Fiend_Large.png"
+  },
+  {
+    "id": 12,
+    "name": "npc_dota_hero_phantom_lancer",
+    "localized_name": "Phantom Lancer",
+    "primary_attr": "agi",
+    "attack_type": "Melee",
+    "roles": ["Carry", "Escape", "Pusher", "Nuker"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/1/1e/Phantom_Lancer_Large.png/125px-Phantom_Lancer_Large.png"
+  },
+  {
+    "id": 13,
+    "name": "npc_dota_hero_puck",
+    "localized_name": "Puck",
+    "primary_attr": "int",
+    "attack_type": "Ranged",
+    "roles": ["Initiator", "Disabler", "Escape", "Nuker"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/3/3a/Puck_Large.png/125px-Puck_Large.png"
+  },
+  {
+    "id": 14,
+    "name": "npc_dota_hero_pudge",
+    "localized_name": "Pudge",
+    "primary_attr": "str",
+    "attack_type": "Melee",
+    "roles": ["Disabler", "Initiator", "Durable", "Nuker"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/d/dd/Pudge_Large.png/125px-Pudge_Large.png"
+  },
+  {
+    "id": 15,
+    "name": "npc_dota_hero_razor",
+    "localized_name": "Razor",
+    "primary_attr": "agi",
+    "attack_type": "Ranged",
+    "roles": ["Carry", "Durable", "Nuker", "Pusher"],
+    "legs": 0,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/3/30/Razor_Large.png/125px-Razor_Large.png"
+  },
+  {
+    "id": 16,
+    "name": "npc_dota_hero_sand_king",
+    "localized_name": "Sand King",
+    "primary_attr": "all",
+    "attack_type": "Melee",
+    "roles": ["Initiator", "Disabler", "Support", "Nuker", "Escape"],
+    "legs": 6,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/e/e5/Sand_King_Large.png/125px-Sand_King_Large.png"
+  },
+  {
+    "id": 17,
+    "name": "npc_dota_hero_storm_spirit",
+    "localized_name": "Storm Spirit",
+    "primary_attr": "int",
+    "attack_type": "Ranged",
+    "roles": ["Carry", "Escape", "Nuker", "Initiator", "Disabler"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/0/0c/Storm_Spirit_Large.png/125px-Storm_Spirit_Large.png"
+  },
+  {
+    "id": 18,
+    "name": "npc_dota_hero_sven",
+    "localized_name": "Sven",
+    "primary_attr": "str",
+    "attack_type": "Melee",
+    "roles": ["Carry", "Disabler", "Initiator", "Durable", "Nuker"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/f/f2/Sven_Large.png/125px-Sven_Large.png"
+  },
+  {
+    "id": 19,
+    "name": "npc_dota_hero_tiny",
+    "localized_name": "Tiny",
+    "primary_attr": "str",
+    "attack_type": "Melee",
+    "roles": ["Carry", "Nuker", "Pusher", "Initiator", "Durable", "Disabler"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/1/12/Tiny_Large.png/125px-Tiny_Large.png"
+  },
+  {
+    "id": 20,
+    "name": "npc_dota_hero_vengefulspirit",
+    "localized_name": "Vengeful Spirit",
+    "primary_attr": "all",
+    "attack_type": "Ranged",
+    "roles": ["Support", "Initiator", "Disabler", "Nuker", "Escape"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/c/c9/Vengeful_Spirit_Large.png/125px-Vengeful_Spirit_Large.png"
+  },
+  {
+    "id": 21,
+    "name": "npc_dota_hero_windrunner",
+    "localized_name": "Windranger",
+    "primary_attr": "all",
+    "attack_type": "Ranged",
+    "roles": ["Carry", "Support", "Disabler", "Escape", "Nuker"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/0/02/Windranger_Large.png/125px-Windranger_Large.png"
+  },
+  {
+    "id": 22,
+    "name": "npc_dota_hero_zuus",
+    "localized_name": "Zeus",
+    "primary_attr": "int",
+    "attack_type": "Ranged",
+    "roles": ["Nuker", "Carry"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/9/91/Zeus_Large.png/125px-Zeus_Large.png"
+  },
+  {
+    "id": 23,
+    "name": "npc_dota_hero_kunkka",
+    "localized_name": "Kunkka",
+    "primary_attr": "str",
+    "attack_type": "Melee",
+    "roles": ["Carry", "Support", "Disabler", "Initiator", "Durable", "Nuker"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/3/3a/Kunkka_Large.png/125px-Kunkka_Large.png"
+  },
+  {
+    "id": 25,
+    "name": "npc_dota_hero_lina",
+    "localized_name": "Lina",
+    "primary_attr": "int",
+    "attack_type": "Ranged",
+    "roles": ["Support", "Carry", "Nuker", "Disabler"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/4/46/Lina_Large.png/125px-Lina_Large.png"
+  },
+  {
+    "id": 26,
+    "name": "npc_dota_hero_lion",
+    "localized_name": "Lion",
+    "primary_attr": "int",
+    "attack_type": "Ranged",
+    "roles": ["Support", "Disabler", "Nuker", "Initiator"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/8/8d/Lion_Large.png/125px-Lion_Large.png"
+  },
+  {
+    "id": 27,
+    "name": "npc_dota_hero_shadow_shaman",
+    "localized_name": "Shadow Shaman",
+    "primary_attr": "int",
+    "attack_type": "Ranged",
+    "roles": ["Support", "Pusher", "Disabler", "Nuker", "Initiator"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/d/d8/Shadow_Shaman_Large.png/125px-Shadow_Shaman_Large.png"
+  },
+  {
+    "id": 28,
+    "name": "npc_dota_hero_slardar",
+    "localized_name": "Slardar",
+    "primary_attr": "str",
+    "attack_type": "Melee",
+    "roles": ["Carry", "Durable", "Initiator", "Disabler", "Escape"],
+    "legs": 0,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/4/41/Slardar_Large.png/125px-Slardar_Large.png"
+  },
+  {
+    "id": 29,
+    "name": "npc_dota_hero_tidehunter",
+    "localized_name": "Tidehunter",
+    "primary_attr": "str",
+    "attack_type": "Melee",
+    "roles": ["Initiator", "Durable", "Disabler", "Nuker", "Carry"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/d/de/Tidehunter_Large.png/125px-Tidehunter_Large.png"
+  },
+  {
+    "id": 30,
+    "name": "npc_dota_hero_witch_doctor",
+    "localized_name": "Witch Doctor",
+    "primary_attr": "int",
+    "attack_type": "Ranged",
+    "roles": ["Support", "Nuker", "Disabler"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/b/b0/Witch_Doctor_Large.png/125px-Witch_Doctor_Large.png"
+  },
+  {
+    "id": 31,
+    "name": "npc_dota_hero_lich",
+    "localized_name": "Lich",
+    "primary_attr": "int",
+    "attack_type": "Ranged",
+    "roles": ["Support", "Nuker"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/3/35/Lich_Large.png/125px-Lich_Large.png"
+  },
+  {
+    "id": 32,
+    "name": "npc_dota_hero_riki",
+    "localized_name": "Riki",
+    "primary_attr": "agi",
+    "attack_type": "Melee",
+    "roles": ["Carry", "Escape", "Disabler"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/a/a3/Riki_Large.png/125px-Riki_Large.png"
+  },
+  {
+    "id": 33,
+    "name": "npc_dota_hero_enigma",
+    "localized_name": "Enigma",
+    "primary_attr": "all",
+    "attack_type": "Ranged",
+    "roles": ["Disabler", "Initiator", "Pusher"],
+    "legs": 0,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/4/43/Enigma_Large.png/125px-Enigma_Large.png"
+  },
+  {
+    "id": 34,
+    "name": "npc_dota_hero_tinker",
+    "localized_name": "Tinker",
+    "primary_attr": "int",
+    "attack_type": "Ranged",
+    "roles": ["Carry", "Nuker", "Pusher"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/c/c0/Tinker_Large.png/125px-Tinker_Large.png"
+  },
+  {
+    "id": 35,
+    "name": "npc_dota_hero_sniper",
+    "localized_name": "Sniper",
+    "primary_attr": "agi",
+    "attack_type": "Ranged",
+    "roles": ["Carry", "Nuker"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/a/a2/Sniper_Large.png/125px-Sniper_Large.png"
+  },
+  {
+    "id": 36,
+    "name": "npc_dota_hero_necrolyte",
+    "localized_name": "Necrophos",
+    "primary_attr": "int",
+    "attack_type": "Ranged",
+    "roles": ["Carry", "Nuker", "Durable", "Disabler"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/0/0e/Necrophos_Large.png/125px-Necrophos_Large.png"
+  },
+  {
+    "id": 37,
+    "name": "npc_dota_hero_warlock",
+    "localized_name": "Warlock",
+    "primary_attr": "int",
+    "attack_type": "Ranged",
+    "roles": ["Support", "Initiator", "Disabler"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/b/b9/Warlock_Large.png/125px-Warlock_Large.png"
+  },
+  {
+    "id": 38,
+    "name": "npc_dota_hero_beastmaster",
+    "localized_name": "Beastmaster",
+    "primary_attr": "all",
+    "attack_type": "Melee",
+    "roles": ["Initiator", "Disabler", "Durable", "Nuker"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/1/19/Beastmaster_Large.png/125px-Beastmaster_Large.png"
+  },
+  {
+    "id": 39,
+    "name": "npc_dota_hero_queenofpain",
+    "localized_name": "Queen of Pain",
+    "primary_attr": "int",
+    "attack_type": "Ranged",
+    "roles": ["Carry", "Nuker", "Escape"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/6/62/Queen_of_Pain_Large.png/125px-Queen_of_Pain_Large.png"
+  },
+  {
+    "id": 40,
+    "name": "npc_dota_hero_venomancer",
+    "localized_name": "Venomancer",
+    "primary_attr": "all",
+    "attack_type": "Ranged",
+    "roles": ["Support", "Nuker", "Initiator", "Pusher", "Disabler"],
+    "legs": 0,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/3/39/Venomancer_Large.png/125px-Venomancer_Large.png"
+  },
+  {
+    "id": 41,
+    "name": "npc_dota_hero_faceless_void",
+    "localized_name": "Faceless Void",
+    "primary_attr": "agi",
+    "attack_type": "Melee",
+    "roles": ["Carry", "Initiator", "Disabler", "Escape", "Durable"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/f/fa/Faceless_Void_Large.png/125px-Faceless_Void_Large.png"
+  },
+  {
+    "id": 42,
+    "name": "npc_dota_hero_skeleton_king",
+    "localized_name": "Wraith King",
+    "primary_attr": "str",
+    "attack_type": "Melee",
+    "roles": ["Carry", "Support", "Durable", "Disabler", "Initiator"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/6/6e/Wraith_King_Large.png/125px-Wraith_King_Large.png"
+  },
+  {
+    "id": 43,
+    "name": "npc_dota_hero_death_prophet",
+    "localized_name": "Death Prophet",
+    "primary_attr": "int",
+    "attack_type": "Ranged",
+    "roles": ["Carry", "Pusher", "Nuker", "Disabler"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/8/80/Death_Prophet_Large.png/125px-Death_Prophet_Large.png"
+  },
+  {
+    "id": 44,
+    "name": "npc_dota_hero_phantom_assassin",
+    "localized_name": "Phantom Assassin",
+    "primary_attr": "agi",
+    "attack_type": "Melee",
+    "roles": ["Carry", "Escape"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/2/2e/Phantom_Assassin_Large.png/125px-Phantom_Assassin_Large.png"
+  },
+  {
+    "id": 45,
+    "name": "npc_dota_hero_pugna",
+    "localized_name": "Pugna",
+    "primary_attr": "int",
+    "attack_type": "Ranged",
+    "roles": ["Nuker", "Pusher"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/2/24/Pugna_Large.png/125px-Pugna_Large.png"
+  },
+  {
+    "id": 46,
+    "name": "npc_dota_hero_templar_assassin",
+    "localized_name": "Templar Assassin",
+    "primary_attr": "agi",
+    "attack_type": "Ranged",
+    "roles": ["Carry", "Escape"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/5/50/Templar_Assassin_Large.png/125px-Templar_Assassin_Large.png"
+  },
+  {
+    "id": 47,
+    "name": "npc_dota_hero_viper",
+    "localized_name": "Viper",
+    "primary_attr": "agi",
+    "attack_type": "Ranged",
+    "roles": ["Carry", "Durable", "Initiator", "Disabler"],
+    "legs": 0,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/6/61/Viper_Large.png/125px-Viper_Large.png"
+  },
+  {
+    "id": 48,
+    "name": "npc_dota_hero_luna",
+    "localized_name": "Luna",
+    "primary_attr": "agi",
+    "attack_type": "Ranged",
+    "roles": ["Carry", "Nuker", "Pusher"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/e/e2/Luna_Large.png/125px-Luna_Large.png"
+  },
+  {
+    "id": 49,
+    "name": "npc_dota_hero_dragon_knight",
+    "localized_name": "Dragon Knight",
+    "primary_attr": "str",
+    "attack_type": "Melee",
+    "roles": ["Carry", "Pusher", "Durable", "Disabler", "Initiator", "Nuker"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/d/da/Dragon_Knight_Large.png/125px-Dragon_Knight_Large.png"
+  },
+  {
+    "id": 50,
+    "name": "npc_dota_hero_dazzle",
+    "localized_name": "Dazzle",
+    "primary_attr": "all",
+    "attack_type": "Ranged",
+    "roles": ["Support", "Nuker", "Disabler"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/e/e3/Dazzle_Large.png/125px-Dazzle_Large.png"
+  },
+  {
+    "id": 51,
+    "name": "npc_dota_hero_rattletrap",
+    "localized_name": "Clockwerk",
+    "primary_attr": "all",
+    "attack_type": "Melee",
+    "roles": ["Initiator", "Disabler", "Durable", "Nuker"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/b/b8/Clockwerk_Large.png/125px-Clockwerk_Large.png"
+  },
+  {
+    "id": 52,
+    "name": "npc_dota_hero_leshrac",
+    "localized_name": "Leshrac",
+    "primary_attr": "int",
+    "attack_type": "Ranged",
+    "roles": ["Carry", "Support", "Nuker", "Pusher", "Disabler"],
+    "legs": 4,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/f/f6/Leshrac_Large.png/125px-Leshrac_Large.png"
+  },
+  {
+    "id": 53,
+    "name": "npc_dota_hero_furion",
+    "localized_name": "Nature's Prophet",
+    "primary_attr": "int",
+    "attack_type": "Ranged",
+    "roles": ["Carry", "Pusher", "Escape", "Nuker"],
+    "legs": 2
+  },
+  {
+    "id": 54,
+    "name": "npc_dota_hero_life_stealer",
+    "localized_name": "Lifestealer",
+    "primary_attr": "str",
+    "attack_type": "Melee",
+    "roles": ["Carry", "Durable", "Escape", "Disabler"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/8/85/Lifestealer_Large.png/125px-Lifestealer_Large.png"
+  },
+  {
+    "id": 55,
+    "name": "npc_dota_hero_dark_seer",
+    "localized_name": "Dark Seer",
+    "primary_attr": "all",
+    "attack_type": "Melee",
+    "roles": ["Initiator", "Escape", "Disabler"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/6/6f/Dark_Seer_Large.png/125px-Dark_Seer_Large.png"
+  },
+  {
+    "id": 56,
+    "name": "npc_dota_hero_clinkz",
+    "localized_name": "Clinkz",
+    "primary_attr": "agi",
+    "attack_type": "Ranged",
+    "roles": ["Carry", "Escape", "Pusher"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/4/4d/Clinkz_Large.png/125px-Clinkz_Large.png"
+  },
+  {
+    "id": 57,
+    "name": "npc_dota_hero_omniknight",
+    "localized_name": "Omniknight",
+    "primary_attr": "str",
+    "attack_type": "Melee",
+    "roles": ["Support", "Durable", "Nuker"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/1/12/Omniknight_Large.png/125px-Omniknight_Large.png"
+  },
+  {
+    "id": 58,
+    "name": "npc_dota_hero_enchantress",
+    "localized_name": "Enchantress",
+    "primary_attr": "int",
+    "attack_type": "Ranged",
+    "roles": ["Support", "Pusher", "Durable", "Disabler"],
+    "legs": 4,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/5/57/Enchantress_Large.png/125px-Enchantress_Large.png"
+  },
+  {
+    "id": 59,
+    "name": "npc_dota_hero_huskar",
+    "localized_name": "Huskar",
+    "primary_attr": "str",
+    "attack_type": "Ranged",
+    "roles": ["Carry", "Durable", "Initiator"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/f/f1/Huskar_Large.png/125px-Huskar_Large.png"
+  },
+  {
+    "id": 60,
+    "name": "npc_dota_hero_night_stalker",
+    "localized_name": "Night Stalker",
+    "primary_attr": "str",
+    "attack_type": "Melee",
+    "roles": ["Carry", "Initiator", "Durable", "Disabler", "Nuker"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/c/c4/Night_Stalker_Large.png/125px-Night_Stalker_Large.png"
+  },
+  {
+    "id": 61,
+    "name": "npc_dota_hero_broodmother",
+    "localized_name": "Broodmother",
+    "primary_attr": "all",
+    "attack_type": "Melee",
+    "roles": ["Carry", "Pusher", "Escape", "Nuker"],
+    "legs": 8,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/0/0c/Broodmother_Large.png/125px-Broodmother_Large.png"
+  },
+  {
+    "id": 62,
+    "name": "npc_dota_hero_bounty_hunter",
+    "localized_name": "Bounty Hunter",
+    "primary_attr": "agi",
+    "attack_type": "Melee",
+    "roles": ["Escape", "Nuker"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/8/86/Bounty_Hunter_Large.png/125px-Bounty_Hunter_Large.png"
+  },
+  {
+    "id": 63,
+    "name": "npc_dota_hero_weaver",
+    "localized_name": "Weaver",
+    "primary_attr": "agi",
+    "attack_type": "Ranged",
+    "roles": ["Carry", "Escape"],
+    "legs": 4,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/5/59/Weaver_Large.png/125px-Weaver_Large.png"
+  },
+  {
+    "id": 64,
+    "name": "npc_dota_hero_jakiro",
+    "localized_name": "Jakiro",
+    "primary_attr": "int",
+    "attack_type": "Ranged",
+    "roles": ["Support", "Nuker", "Pusher", "Disabler"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/4/4d/Jakiro_Large.png/125px-Jakiro_Large.png"
+  },
+  {
+    "id": 65,
+    "name": "npc_dota_hero_batrider",
+    "localized_name": "Batrider",
+    "primary_attr": "all",
+    "attack_type": "Ranged",
+    "roles": ["Initiator", "Disabler", "Escape"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/c/c1/Batrider_Large.png/125px-Batrider_Large.png"
+  },
+  {
+    "id": 66,
+    "name": "npc_dota_hero_chen",
+    "localized_name": "Chen",
+    "primary_attr": "all",
+    "attack_type": "Ranged",
+    "roles": ["Support", "Pusher"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/7/7d/Chen_Large.png/125px-Chen_Large.png"
+  },
+  {
+    "id": 67,
+    "name": "npc_dota_hero_spectre",
+    "localized_name": "Spectre",
+    "primary_attr": "agi",
+    "attack_type": "Melee",
+    "roles": ["Carry", "Durable", "Escape"],
+    "legs": 0,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/0/0a/Spectre_Large.png/125px-Spectre_Large.png"
+  },
+  {
+    "id": 68,
+    "name": "npc_dota_hero_ancient_apparition",
+    "localized_name": "Ancient Apparition",
+    "primary_attr": "int",
+    "attack_type": "Ranged",
+    "roles": ["Support", "Disabler", "Nuker"],
+    "legs": 0,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/5/5d/Ancient_Apparition_Large.png/125px-Ancient_Apparition_Large.png"
+  },
+  {
+    "id": 69,
+    "name": "npc_dota_hero_doom_bringer",
+    "localized_name": "Doom",
+    "primary_attr": "str",
+    "attack_type": "Melee",
+    "roles": ["Carry", "Disabler", "Initiator", "Durable", "Nuker"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/1/19/Doom_Large.png/125px-Doom_Large.png"
+  },
+  {
+    "id": 70,
+    "name": "npc_dota_hero_ursa",
+    "localized_name": "Ursa",
+    "primary_attr": "agi",
+    "attack_type": "Melee",
+    "roles": ["Carry", "Durable", "Disabler"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/2/27/Ursa_Large.png/125px-Ursa_Large.png"
+  },
+  {
+    "id": 71,
+    "name": "npc_dota_hero_spirit_breaker",
+    "localized_name": "Spirit Breaker",
+    "primary_attr": "str",
+    "attack_type": "Melee",
+    "roles": ["Carry", "Initiator", "Disabler", "Durable", "Escape"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/f/f6/Spirit_Breaker_Large.png/125px-Spirit_Breaker_Large.png"
+  },
+  {
+    "id": 72,
+    "name": "npc_dota_hero_gyrocopter",
+    "localized_name": "Gyrocopter",
+    "primary_attr": "agi",
+    "attack_type": "Ranged",
+    "roles": ["Carry", "Nuker", "Disabler"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/e/e1/Gyrocopter_Large.png/125px-Gyrocopter_Large.png"
+  },
+  {
+    "id": 73,
+    "name": "npc_dota_hero_alchemist",
+    "localized_name": "Alchemist",
+    "primary_attr": "str",
+    "attack_type": "Melee",
+    "roles": ["Carry", "Support", "Durable", "Disabler", "Initiator", "Nuker"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/1/11/Alchemist_Large.png/125px-Alchemist_Large.png"
+  },
+  {
+    "id": 74,
+    "name": "npc_dota_hero_invoker",
+    "localized_name": "Invoker",
+    "primary_attr": "all",
+    "attack_type": "Ranged",
+    "roles": ["Carry", "Nuker", "Disabler", "Escape", "Pusher"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/5/5b/Invoker_Large.png/125px-Invoker_Large.png"
+  },
+  {
+    "id": 75,
+    "name": "npc_dota_hero_silencer",
+    "localized_name": "Silencer",
+    "primary_attr": "int",
+    "attack_type": "Ranged",
+    "roles": ["Carry", "Support", "Disabler", "Initiator", "Nuker"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/9/98/Silencer_Large.png/125px-Silencer_Large.png"
+  },
+  {
+    "id": 76,
+    "name": "npc_dota_hero_obsidian_destroyer",
+    "localized_name": "Outworld Destroyer",
+    "primary_attr": "int",
+    "attack_type": "Ranged",
+    "roles": ["Carry", "Nuker", "Disabler"],
+    "legs": 4,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/c/ca/Outworld_Destroyer_Large.png/125px-Outworld_Destroyer_Large.png"
+  },
+  {
+    "id": 77,
+    "name": "npc_dota_hero_lycan",
+    "localized_name": "Lycan",
+    "primary_attr": "all",
+    "attack_type": "Melee",
+    "roles": ["Carry", "Pusher", "Durable", "Escape"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/c/ca/Lycan_Large.png/125px-Lycan_Large.png"
+  },
+  {
+    "id": 78,
+    "name": "npc_dota_hero_brewmaster",
+    "localized_name": "Brewmaster",
+    "primary_attr": "all",
+    "attack_type": "Melee",
+    "roles": ["Carry", "Initiator", "Durable", "Disabler", "Nuker"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/0/0b/Brewmaster_Large.png/125px-Brewmaster_Large.png"
+  },
+  {
+    "id": 79,
+    "name": "npc_dota_hero_shadow_demon",
+    "localized_name": "Shadow Demon",
+    "primary_attr": "int",
+    "attack_type": "Ranged",
+    "roles": ["Support", "Disabler", "Initiator", "Nuker"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/7/79/Shadow_Demon_Large.png/125px-Shadow_Demon_Large.png"
+  },
+  {
+    "id": 80,
+    "name": "npc_dota_hero_lone_druid",
+    "localized_name": "Lone Druid",
+    "primary_attr": "all",
+    "attack_type": "Ranged",
+    "roles": ["Carry", "Pusher", "Durable"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/e/e2/Lone_Druid_Large.png/125px-Lone_Druid_Large.png"
+  },
+  {
+    "id": 81,
+    "name": "npc_dota_hero_chaos_knight",
+    "localized_name": "Chaos Knight",
+    "primary_attr": "str",
+    "attack_type": "Melee",
+    "roles": ["Carry", "Disabler", "Durable", "Pusher", "Initiator"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/4/46/Chaos_Knight_Large.png/125px-Chaos_Knight_Large.png"
+  },
+  {
+    "id": 82,
+    "name": "npc_dota_hero_meepo",
+    "localized_name": "Meepo",
+    "primary_attr": "agi",
+    "attack_type": "Melee",
+    "roles": ["Carry", "Escape", "Nuker", "Disabler", "Initiator", "Pusher"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/9/97/Meepo_Large.png/125px-Meepo_Large.png"
+  },
+  {
+    "id": 83,
+    "name": "npc_dota_hero_treant",
+    "localized_name": "Treant Protector",
+    "primary_attr": "str",
+    "attack_type": "Melee",
+    "roles": ["Support", "Initiator", "Durable", "Disabler", "Escape"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/7/7a/Treant_Protector_Large.png/125px-Treant_Protector_Large.png"
+  },
+  {
+    "id": 84,
+    "name": "npc_dota_hero_ogre_magi",
+    "localized_name": "Ogre Magi",
+    "primary_attr": "str",
+    "attack_type": "Melee",
+    "roles": ["Support", "Nuker", "Disabler", "Durable", "Initiator"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/3/30/Ogre_Magi_Large.png/125px-Ogre_Magi_Large.png"
+  },
+  {
+    "id": 85,
+    "name": "npc_dota_hero_undying",
+    "localized_name": "Undying",
+    "primary_attr": "str",
+    "attack_type": "Melee",
+    "roles": ["Support", "Durable", "Disabler", "Nuker"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/6/6b/Undying_Large.png/125px-Undying_Large.png"
+  },
+  {
+    "id": 86,
+    "name": "npc_dota_hero_rubick",
+    "localized_name": "Rubick",
+    "primary_attr": "int",
+    "attack_type": "Ranged",
+    "roles": ["Support", "Disabler", "Nuker"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/5/57/Rubick_Large.png/125px-Rubick_Large.png"
+  },
+  {
+    "id": 87,
+    "name": "npc_dota_hero_disruptor",
+    "localized_name": "Disruptor",
+    "primary_attr": "int",
+    "attack_type": "Ranged",
+    "roles": ["Support", "Disabler", "Nuker", "Initiator"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/b/b7/Disruptor_Large.png/125px-Disruptor_Large.png"
+  },
+  {
+    "id": 88,
+    "name": "npc_dota_hero_nyx_assassin",
+    "localized_name": "Nyx Assassin",
+    "primary_attr": "all",
+    "attack_type": "Melee",
+    "roles": ["Disabler", "Nuker", "Initiator", "Escape"],
+    "legs": 6,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/c/c4/Nyx_Assassin_Large.png/125px-Nyx_Assassin_Large.png"
+  },
+  {
+    "id": 89,
+    "name": "npc_dota_hero_naga_siren",
+    "localized_name": "Naga Siren",
+    "primary_attr": "agi",
+    "attack_type": "Melee",
+    "roles": ["Carry", "Support", "Pusher", "Disabler", "Initiator", "Escape"],
+    "legs": 0,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/c/ca/Naga_Siren_Large.png/125px-Naga_Siren_Large.png"
+  },
+  {
+    "id": 90,
+    "name": "npc_dota_hero_keeper_of_the_light",
+    "localized_name": "Keeper of the Light",
+    "primary_attr": "int",
+    "attack_type": "Ranged",
+    "roles": ["Support", "Nuker", "Disabler"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/b/bc/Keeper_of_the_Light_Large.png/125px-Keeper_of_the_Light_Large.png"
+  },
+  {
+    "id": 91,
+    "name": "npc_dota_hero_wisp",
+    "localized_name": "Io",
+    "primary_attr": "all",
+    "attack_type": "Ranged",
+    "roles": ["Support", "Escape", "Nuker"],
+    "legs": 0,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/a/ad/Io_Large.png/125px-Io_Large.png"
+  },
+  {
+    "id": 92,
+    "name": "npc_dota_hero_visage",
+    "localized_name": "Visage",
+    "primary_attr": "all",
+    "attack_type": "Ranged",
+    "roles": ["Support", "Nuker", "Durable", "Disabler", "Pusher"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/f/f8/Visage_Large.png/125px-Visage_Large.png"
+  },
+  {
+    "id": 93,
+    "name": "npc_dota_hero_slark",
+    "localized_name": "Slark",
+    "primary_attr": "agi",
+    "attack_type": "Melee",
+    "roles": ["Carry", "Escape", "Disabler", "Nuker"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/f/fa/Slark_Large.png/125px-Slark_Large.png"
+  },
+  {
+    "id": 94,
+    "name": "npc_dota_hero_medusa",
+    "localized_name": "Medusa",
+    "primary_attr": "agi",
+    "attack_type": "Ranged",
+    "roles": ["Carry", "Disabler", "Durable"],
+    "legs": 0,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/3/38/Medusa_Large.png/125px-Medusa_Large.png"
+  },
+  {
+    "id": 95,
+    "name": "npc_dota_hero_troll_warlord",
+    "localized_name": "Troll Warlord",
+    "primary_attr": "agi",
+    "attack_type": "Ranged",
+    "roles": ["Carry", "Pusher", "Disabler", "Durable"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/0/02/Troll_Warlord_Large.png/125px-Troll_Warlord_Large.png"
+  },
+  {
+    "id": 96,
+    "name": "npc_dota_hero_centaur",
+    "localized_name": "Centaur Warrunner",
+    "primary_attr": "str",
+    "attack_type": "Melee",
+    "roles": ["Durable", "Initiator", "Disabler", "Nuker", "Escape"],
+    "legs": 4,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/5/54/Centaur_Warrunner_Large.png/125px-Centaur_Warrunner_Large.png"
+  },
+  {
+    "id": 97,
+    "name": "npc_dota_hero_magnataur",
+    "localized_name": "Magnus",
+    "primary_attr": "all",
+    "attack_type": "Melee",
+    "roles": ["Initiator", "Disabler", "Nuker", "Escape"],
+    "legs": 4,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/6/67/Magnus_Large.png/125px-Magnus_Large.png"
+  },
+  {
+    "id": 98,
+    "name": "npc_dota_hero_shredder",
+    "localized_name": "Timbersaw",
+    "primary_attr": "all",
+    "attack_type": "Melee",
+    "roles": ["Nuker", "Durable", "Escape"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/6/60/Timbersaw_Large.png/125px-Timbersaw_Large.png"
+  },
+  {
+    "id": 99,
+    "name": "npc_dota_hero_bristleback",
+    "localized_name": "Bristleback",
+    "primary_attr": "str",
+    "attack_type": "Melee",
+    "roles": ["Carry", "Durable", "Initiator", "Nuker"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/f/f9/Bristleback_Large.png/125px-Bristleback_Large.png"
+  },
+  {
+    "id": 100,
+    "name": "npc_dota_hero_tusk",
+    "localized_name": "Tusk",
+    "primary_attr": "str",
+    "attack_type": "Melee",
+    "roles": ["Initiator", "Disabler", "Nuker"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/6/61/Tusk_Large.png/125px-Tusk_Large.png"
+  },
+  {
+    "id": 101,
+    "name": "npc_dota_hero_skywrath_mage",
+    "localized_name": "Skywrath Mage",
+    "primary_attr": "int",
+    "attack_type": "Ranged",
+    "roles": ["Support", "Nuker", "Disabler"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/5/54/Skywrath_Mage_Large.png/125px-Skywrath_Mage_Large.png"
+  },
+  {
+    "id": 102,
+    "name": "npc_dota_hero_abaddon",
+    "localized_name": "Abaddon",
+    "primary_attr": "all",
+    "attack_type": "Melee",
+    "roles": ["Support", "Carry", "Durable"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/f/fa/Abaddon_Large.png/125px-Abaddon_Large.png"
+  },
+  {
+    "id": 103,
+    "name": "npc_dota_hero_elder_titan",
+    "localized_name": "Elder Titan",
+    "primary_attr": "str",
+    "attack_type": "Melee",
+    "roles": ["Initiator", "Disabler", "Nuker", "Durable"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/b/bc/Elder_Titan_Large.png/125px-Elder_Titan_Large.png"
+  },
+  {
+    "id": 104,
+    "name": "npc_dota_hero_legion_commander",
+    "localized_name": "Legion Commander",
+    "primary_attr": "str",
+    "attack_type": "Melee",
+    "roles": ["Carry", "Disabler", "Initiator", "Durable", "Nuker"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/0/0a/Legion_Commander_Large.png/125px-Legion_Commander_Large.png"
+  },
+  {
+    "id": 105,
+    "name": "npc_dota_hero_techies",
+    "localized_name": "Techies",
+    "primary_attr": "all",
+    "attack_type": "Ranged",
+    "roles": ["Nuker", "Disabler"],
+    "legs": 6,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/a/a7/Techies_Large.png/125px-Techies_Large.png"
+  },
+  {
+    "id": 106,
+    "name": "npc_dota_hero_ember_spirit",
+    "localized_name": "Ember Spirit",
+    "primary_attr": "agi",
+    "attack_type": "Melee",
+    "roles": ["Carry", "Escape", "Nuker", "Disabler", "Initiator"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/9/98/Ember_Spirit_Large.png/125px-Ember_Spirit_Large.png"
+  },
+  {
+    "id": 107,
+    "name": "npc_dota_hero_earth_spirit",
+    "localized_name": "Earth Spirit",
+    "primary_attr": "str",
+    "attack_type": "Melee",
+    "roles": ["Nuker", "Escape", "Disabler", "Initiator", "Durable"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/2/2b/Earth_Spirit_Large.png/125px-Earth_Spirit_Large.png"
+  },
+  {
+    "id": 108,
+    "name": "npc_dota_hero_abyssal_underlord",
+    "localized_name": "Underlord",
+    "primary_attr": "str",
+    "attack_type": "Melee",
+    "roles": ["Support", "Nuker", "Disabler", "Durable", "Escape"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/9/9e/Underlord_Large.png/125px-Underlord_Large.png"
+  },
+  {
+    "id": 109,
+    "name": "npc_dota_hero_terrorblade",
+    "localized_name": "Terrorblade",
+    "primary_attr": "agi",
+    "attack_type": "Melee",
+    "roles": ["Carry", "Pusher", "Nuker"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/b/b5/Terrorblade_Large.png/125px-Terrorblade_Large.png"
+  },
+  {
+    "id": 110,
+    "name": "npc_dota_hero_phoenix",
+    "localized_name": "Phoenix",
+    "primary_attr": "all",
+    "attack_type": "Ranged",
+    "roles": ["Support", "Nuker", "Initiator", "Escape", "Disabler"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/6/61/Phoenix_Large.png/125px-Phoenix_Large.png"
+  },
+  {
+    "id": 111,
+    "name": "npc_dota_hero_oracle",
+    "localized_name": "Oracle",
+    "primary_attr": "int",
+    "attack_type": "Ranged",
+    "roles": ["Support", "Nuker", "Disabler", "Escape"],
+    "legs": 0,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/f/fc/Oracle_Large.png/125px-Oracle_Large.png"
+  },
+  {
+    "id": 112,
+    "name": "npc_dota_hero_winter_wyvern",
+    "localized_name": "Winter Wyvern",
+    "primary_attr": "all",
+    "attack_type": "Ranged",
+    "roles": ["Support", "Disabler", "Nuker"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/c/c7/Winter_Wyvern_Large.png/125px-Winter_Wyvern_Large.png"
+  },
+  {
+    "id": 113,
+    "name": "npc_dota_hero_arc_warden",
+    "localized_name": "Arc Warden",
+    "primary_attr": "agi",
+    "attack_type": "Ranged",
+    "roles": ["Carry", "Escape", "Nuker"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/6/60/Arc_Warden_Large.png/125px-Arc_Warden_Large.png"
+  },
+  {
+    "id": 114,
+    "name": "npc_dota_hero_monkey_king",
+    "localized_name": "Monkey King",
+    "primary_attr": "agi",
+    "attack_type": "Melee",
+    "roles": ["Carry", "Escape", "Disabler", "Initiator"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/4/4e/Monkey_King_Large.png/125px-Monkey_King_Large.png"
+  },
+  {
+    "id": 119,
+    "name": "npc_dota_hero_dark_willow",
+    "localized_name": "Dark Willow",
+    "primary_attr": "all",
+    "attack_type": "Ranged",
+    "roles": ["Support", "Nuker", "Disabler", "Escape"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/5/5e/Dark_Willow_Large.png/125px-Dark_Willow_Large.png"
+  },
+  {
+    "id": 120,
+    "name": "npc_dota_hero_pangolier",
+    "localized_name": "Pangolier",
+    "primary_attr": "all",
+    "attack_type": "Melee",
+    "roles": ["Carry", "Nuker", "Disabler", "Durable", "Escape", "Initiator"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/a/a3/Pangolier_Large.png/125px-Pangolier_Large.png"
+  },
+  {
+    "id": 121,
+    "name": "npc_dota_hero_grimstroke",
+    "localized_name": "Grimstroke",
+    "primary_attr": "int",
+    "attack_type": "Ranged",
+    "roles": ["Support", "Nuker", "Disabler", "Escape"],
+    "legs": 0,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/6/60/Grimstroke_Large.png/125px-Grimstroke_Large.png"
+  },
+  {
+    "id": 123,
+    "name": "npc_dota_hero_hoodwink",
+    "localized_name": "Hoodwink",
+    "primary_attr": "agi",
+    "attack_type": "Ranged",
+    "roles": ["Support", "Nuker", "Escape", "Disabler"],
+    "legs": 4,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/d/d0/Hoodwink_Large.png/125px-Hoodwink_Large.png"
+  },
+  {
+    "id": 126,
+    "name": "npc_dota_hero_void_spirit",
+    "localized_name": "Void Spirit",
+    "primary_attr": "all",
+    "attack_type": "Melee",
+    "roles": ["Carry", "Escape", "Nuker", "Disabler"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/1/16/Void_Spirit_Large.png/125px-Void_Spirit_Large.png"
+  },
+  {
+    "id": 128,
+    "name": "npc_dota_hero_snapfire",
+    "localized_name": "Snapfire",
+    "primary_attr": "all",
+    "attack_type": "Ranged",
+    "roles": ["Support", "Nuker", "Disabler", "Escape"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/a/a4/Snapfire_Large.png/125px-Snapfire_Large.png"
+  },
+  {
+    "id": 129,
+    "name": "npc_dota_hero_mars",
+    "localized_name": "Mars",
+    "primary_attr": "str",
+    "attack_type": "Melee",
+    "roles": ["Carry", "Initiator", "Disabler", "Durable"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/4/4e/Mars_Large.png/125px-Mars_Large.png"
+  },
+  {
+    "id": 135,
+    "name": "npc_dota_hero_dawnbreaker",
+    "localized_name": "Dawnbreaker",
+    "primary_attr": "str",
+    "attack_type": "Melee",
+    "roles": ["Carry", "Durable"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/c/cc/Dawnbreaker_Large.png/125px-Dawnbreaker_Large.png"
+  },
+  {
+    "id": 136,
+    "name": "npc_dota_hero_marci",
+    "localized_name": "Marci",
+    "primary_attr": "all",
+    "attack_type": "Melee",
+    "roles": ["Support", "Carry", "Initiator", "Disabler", "Escape"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/0/02/Marci_Large.png/125px-Marci_Large.png"
+  },
+  {
+    "id": 137,
+    "name": "npc_dota_hero_primal_beast",
+    "localized_name": "Primal Beast",
+    "primary_attr": "str",
+    "attack_type": "Melee",
+    "roles": ["Initiator", "Durable", "Disabler"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/6/6a/Primal_Beast_Large.png/125px-Primal_Beast_Large.png"
+  },
+  {
+    "id": 138,
+    "name": "npc_dota_hero_muerta",
+    "localized_name": "Muerta",
+    "primary_attr": "int",
+    "attack_type": "Ranged",
+    "roles": ["Carry", "Nuker", "Disabler"],
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net//commons/images/thumb/c/c0/Muerta.png/125px-Muerta.png"
+  }
+]
