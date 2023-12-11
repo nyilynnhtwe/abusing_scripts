@@ -2,7 +2,7 @@
   "name": "api",
   "version": "1.0.0",
   "description": "Made to get image urls of dota 2 heros from Liquidpedia.",
-  "main": "craft.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
