@@ -1,12 +1,15 @@
 const app = require("express")();
 const fs = require("fs");
+const path = require("path");
+
+const filePath = path.join(__dirname, "data.json");
 
 app.get("/", (req, res) => {
   res.send("Dota 2 heros api by Florject.\n Get all heros - /api/heros \n Get a hero by id - /api/heros/:id ");
 });
 
 app.get("/api/heros", (req, res) => {
-  fs.readFile("./data.json", "utf8", (err, file) => {
+  fs.readFile(filePath, "utf8", (err, file) => {
     if (err) {
       console.error("Error reading file:", err);
       res.status(500).send("Internal Server Error");
@@ -25,7 +28,7 @@ app.get("/api/heros", (req, res) => {
 
 app.get("/api/heros/:id", (req, res) => {
   const { id } = req.params;
-  fs.readFile("./data.json", "utf8", (err, file) => {
+  fs.readFile(filePath, "utf8", (err, file) => {
     if (err) {
       console.error("Error reading file:", err);
       res.status(500).send("Internal Server Error");
