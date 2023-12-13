@@ -13,7 +13,7 @@ const options = {
       },
     ],
   },
-  apis: [ "./*.js" ],
+  apis: [ __dirname+"/*.js" ],
 };
 
 module.exports = options;
