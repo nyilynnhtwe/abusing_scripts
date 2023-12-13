@@ -1,11 +1,14 @@
 const app = require("express")();
 const fs = require("fs");
 const path = require("path");
+const cors = require('cors');
 const swaggerJsdoc = require("swagger-jsdoc");
 const swaggerUi = require("swagger-ui-express");
 const options = require("./doc");
 
 const specs = swaggerJsdoc(options);
+app.use(cors());
+
 
 const CSS_URL =
   "https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/4.1.0/swagger-ui.min.css";
