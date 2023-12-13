@@ -13,7 +13,7 @@ const options = {
       },
     ],
   },
-  apis: ["*.js"],
+  apis: ["./heros.js"],
 };
 
 module.exports = options;
