@@ -19,8 +19,8 @@ app.use(
 const filePath = path.join(__dirname, "data.json");
 
 app.get("/", (req, res) => {
-  res.redirect("https://abusing-scripts.vercel.app/api-docs");
-  // res.redirect("http://localhost:3000/api-docs");
+  // res.redirect("https://abusing-scripts.vercel.app/api-docs");
+  res.redirect("http://localhost:3000/api-docs");
 });
 
 app.get("/api/heros", (req, res) => {
@@ -69,6 +69,6 @@ app.get("/api/heros/:id", (req, res) => {
   });
 });
 
-// app.listen(3000);
+app.listen(3000);
 
 module.exports = app;
