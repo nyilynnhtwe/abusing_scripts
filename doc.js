@@ -12,7 +12,7 @@ const options = {
       },
     ],
   },
-  apis: ["./routes/*.js"],
+  apis: ["src/**/*.js"],
 };
 
 module.exports = options;
