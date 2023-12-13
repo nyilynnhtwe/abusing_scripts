@@ -4,7 +4,7 @@ const path = require("path");
 const cors = require('cors');
 const swaggerJsdoc = require("swagger-jsdoc");
 const swaggerUi = require("swagger-ui-express");
-const options = require("./doc");
+const options = require(path.join(__dirname, "./doc"));
 
 const specs = swaggerJsdoc(options);
 app.use(cors());
