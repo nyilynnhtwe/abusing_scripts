@@ -1,5 +1,3 @@
-const filePaths = path.join(__dirname, "*.js");
-
 const options = {
   definition: {
     openapi: "3.1.0",
@@ -15,7 +13,7 @@ const options = {
       },
     ],
   },
-  apis: [ filePaths ],
+  apis: [ "./*.js" ],
 };
 
 module.exports = options;
