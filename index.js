@@ -6,18 +6,19 @@ const swaggerUi = require("swagger-ui-express");
 const options = require("./doc");
 
 const specs = swaggerJsdoc(options);
+
+const CSS_URL =
+  "https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/4.1.0/swagger-ui.min.css";
+
 app.use(
   "/api-docs",
   swaggerUi.serve,
-  swaggerUi.setup(specs, { explorer: true })
+  swaggerUi.setup(specs, { customCssUrl: CSS_URL })
 );
 
 const filePath = path.join(__dirname, "data.json");
 
 app.get("/", (req, res) => {
-  // res.send(
-  // "Dota 2 heros api by Florject.\n Get all heros - /api/heros \n Get a hero by id - /api/heros/:id "
-  // );
   res.redirect("https://abusing-scripts.vercel.app/api-docs");
 });
 
