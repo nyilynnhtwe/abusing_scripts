@@ -18,7 +18,7 @@ app.get("/", (req, res) => {
   // res.send(
   // "Dota 2 heros api by Florject.\n Get all heros - /api/heros \n Get a hero by id - /api/heros/:id "
   // );
-  res.redirect("https://abusing-scripts.vercel.app/api/heros/api-docs");
+  res.redirect("https://abusing-scripts.vercel.app/api-docs");
 });
 
 app.get("/api/heros", (req, res) => {
