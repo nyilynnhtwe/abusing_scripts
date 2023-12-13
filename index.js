@@ -1,14 +1,31 @@
 const app = require("express")();
 const fs = require("fs");
 const path = require("path");
-const cors = require('cors');
+const cors = require("cors");
 const swaggerJsdoc = require("swagger-jsdoc");
 const swaggerUi = require("swagger-ui-express");
-const options = require(path.join(__dirname, "./doc"));
+// const options = require(path.join(__dirname, "./doc"));
+
+const options = {
+  definition: {
+    openapi: "3.1.0",
+    info: {
+      title: "Dota2 Heros API",
+      version: "0.1.0",
+      description: "Dota 2 heros api by Florject",
+    },
+    servers: [
+      {
+        url: "https://abusing-scripts.vercel.app",
+        // url: "http://localhost:3000",
+      },
+    ],
+  },
+  apis: ["*.js"],
+};
 
 const specs = swaggerJsdoc(options);
 app.use(cors());
-
 
 const CSS_URL =
   "https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/5.0.0/swagger-ui.min.css";
