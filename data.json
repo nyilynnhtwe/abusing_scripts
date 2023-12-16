@@ -516,7 +516,8 @@
     "primary_attr": "int",
     "attack_type": "Ranged",
     "roles": ["Carry", "Pusher", "Escape", "Nuker"],
-    "legs": 2
+    "legs": 2,
+    "imageUrl": "https://liquipedia.net/commons/images/1/16/Natures_Prophet_Large.png"
   },
   {
     "id": 54,
